@@ -1,9 +1,6 @@
-import Image from "next/image";
+import * as React from "react";
+import { NextUIProvider } from "@nextui-org/react";
 
 export default function Home() {
-  return (
-    <div>
-      <h1>FusionHarbor Dapp</h1>
-    </div>
-  );
+  return <h1>Hello</h1>;
 }
